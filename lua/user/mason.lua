@@ -19,6 +19,7 @@ M.servers = {
   "yamlls",
   "marksman",
   "tailwindcss",
+  "rust_analyzer",
 }
 
 function M.config()

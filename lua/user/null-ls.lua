@@ -12,7 +12,7 @@ function M.config()
       formatting.stylua,
       formatting.prettier,
       formatting.prettier.with {
-        extra_filetypes = { "toml" },
+        extra_filetypes = { "toml", "rust" },
         -- extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
       },
       -- null_ls.builtins.diagnostics.eslint,
